@@ -1,7 +1,7 @@
-package com.vokye.vokyProject.ventemanagement.service;
+package com.vokye.vokyProject.service;
 
-import com.vokye.vokyProject.ventemanagement.model.Vente;
-import com.vokye.vokyProject.ventemanagement.repository.VenteRepository;
+import com.vokye.vokyProject.repository.VenteRepository;
+import com.vokye.vokyProject.model.Vente;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -29,7 +29,6 @@ public class VenteService {
     public String deleteVEnte(Integer idVente) {
         venteRepository.deleteById(idVente);
         return "deleted succes";
-
     }
 
 }

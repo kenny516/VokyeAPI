@@ -1,8 +1,8 @@
-package com.vokye.vokyProject.ventemanagement.controller;
+package com.vokye.vokyProject.controller;
 
 
-import com.vokye.vokyProject.ventemanagement.model.Vente;
-import com.vokye.vokyProject.ventemanagement.service.VenteService;
+import com.vokye.vokyProject.service.VenteService;
+import com.vokye.vokyProject.model.Vente;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

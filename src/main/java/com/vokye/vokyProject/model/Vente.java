@@ -1,4 +1,4 @@
-package com.vokye.vokyProject.ventemanagement.model;
+package com.vokye.vokyProject.model;
 
 import jakarta.persistence.*;
 
